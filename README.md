@@ -10,9 +10,9 @@ In order to move ahead quickly during the workshop, it would be great if you cou
 * Play around with the `processing_start_script.pde` [here](https://github.com/maxfrischknecht/0-1-Black-White-On-Off-Dead-Alive/tree/master/processing_start_script)
 * Read trough «PARAGRAPHS ON COMPUTER ART,PAST AND PRESENT» by Frieder Nake [here](https://github.com/maxfrischknecht/0-1-Black-White-On-Off-Dead-Alive/blob/master/PARAGRAPHS_ON_COMPUTER_ART_PAST_AND_PRES.pdf) (optional)
 
-## Introduction to scripting
+## Part 1: Introduction to scripting
 
-### 0. setup & draw:
+### 1. setup & draw:
 
 The function `setup` will be execute once at the beginning. Here you define your sketch size.
 
@@ -31,7 +31,7 @@ void draw(){
 ```
 It's also possible to work without a `draw` function. This way your program just get's executed once.
 
-### 1. Comments:
+### 2. Comments:
 
 You can activate / deactive code by commenting / uncommenting it with `//`
 
@@ -41,7 +41,7 @@ rect(0, 0, 200, 200); // get's executed
 
 ```
 
-### 2. Coordinate system and unit of measurement:
+### 3. Coordinate system and unit of measurement:
 
 In Processing you work with a `x` (horizontal) and `y` (vertical) axis. The unit of measurement is pixel.
 
@@ -49,7 +49,7 @@ In Processing you work with a `x` (horizontal) and `y` (vertical) axis. The unit
 size(720, 400); // sketch is 720 x 400 px
 ```
 
-### 3. Primitiv shapes
+### 4. Primitiv shapes
 There are different shapes predefined. Including rectangles, circles, triangles and more. [For a full reference visit the Processing website](https://processing.org/examples/shapeprimitives.html). Depending on there shape they take different arguments:
 
 ```
@@ -59,7 +59,7 @@ line(x1, y1, x2, y2)
 triangle(x1, y1, x2, y2, x3, y3)
 ```
 
-### 4. Color
+### 5. Color
 
 Processing uses the RGB color mode by default. Therefore every color needs 3 arguments: `(red, green, blue)`. These values range from 0 to 255. If you only write one argument it will result in a grayscale tone. [For a full reference check here](https://processing.org/reference/colorMode_.html) 
 
@@ -83,7 +83,7 @@ The code above results in:
 
 ![](img/red_rectangle.png)
 
-### 5. Variables
+### 6. Variables
 
 To be more flexible you can use variables. They are a key concept of almost every programming language. 
 
