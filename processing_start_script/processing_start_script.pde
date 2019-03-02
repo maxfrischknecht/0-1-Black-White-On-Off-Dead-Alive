@@ -16,8 +16,4 @@ void draw() {
   strokeWeight(20);
   fill(255, 0, 0);
   rect(x, y, 400, 400);
-  
-  // play around!
-  // try to replace the x, y, in rect() by mouseX, and mouseY
-  // try to uncomment (=deactivate) the background
 }
