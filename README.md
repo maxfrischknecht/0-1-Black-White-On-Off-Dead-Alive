@@ -1,12 +1,16 @@
 # 0/1 – Black/White – On/Off – Dead/Alive
 «Weaving Scripting Writing», Scripting Workshop, ETH Architecture, Seminar Week, 17–22 March 2019.
 
-## Introduction to scripting
-
+## Course preparation
 We will use the Processing software for our first steps into the world of scripting and coding. It was developed by Ben Fry and Casey Reas at the MIT. The software is a flexible tool to learn how to code in the context of the visual arts.
 
-First things first: [Download Processing](https://code.visualstudio.com/) 
+In order to move ahead quickly during the workshop, it would be great if you could do the following tasks:
 
+* Download / Install Processing and read trough the introduction text [here](https://processing.org/tutorials/gettingstarted/) (20 min) 
+* Play around with the `processing_start_script.pde` [here](https://github.com/maxfrischknecht/0-1-Black-White-On-Off-Dead-Alive/tree/master/processing_start_script)
+* Read the 
+
+## Introduction to scripting
 
 ### 0. setup & draw:
 
