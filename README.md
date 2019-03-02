@@ -174,7 +174,7 @@ String timestamp() {
 
 ```
 
-## Outlook
+## Resources
 I can encourage you to check out the following resources:
 
 [Hello Processing!](https://hello.processing.org/editor/)
