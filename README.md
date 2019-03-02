@@ -95,7 +95,7 @@ Now you can use this variable (and it's value) in the code: `rect(0, 0, size, si
 
 There are also built in variables like `mouseX`, `mouseY` as well as `width` and `height` of your sketch. 
 
-### 6. Datatypes
+### 7. Datatypes
 
 When you define a variable you also have to think about it's datatype. It's what? Datatype? Yeah right! You can work with these types:
 
@@ -123,11 +123,11 @@ myArray2[3] // equals 10
 
 Yeah, the array is a weird thing! 🔮 But practically every data out in the web (e.g. your facebook likes) is saved as array data type.
 
-### 7. Console
+### 8. Console
 
 You can output data in the console to see problems in the code by writting `println(myVariable or value)`. The console is **super helpfull**, never underestimate the power of the console 💪.
 
-### 8. For loop
+### 9. For loop
 
 If you want to handle many similar things at once, the "for loop" is the weapon of choice. `int i` is a counter which usually starts at `0`. As long as `i` is smaller than `100` the code inside the `{}` gets executed. `i = i + 1` indicates how big the counting steps are.
 
@@ -138,7 +138,7 @@ for (int i = 0; i < 100; i = i + 1) {
 ```
 This code draws 100 rectangles on the same position. Cool but useless, right? Keep reading!
 
-### 9. Random
+### 10. Random
 
 Usually you need a bit of random to make you code spicy 🔥. This outputs a random number between 0 and 100: `random(0, 100);`. Trough this the code from above makes much more sense:
 
@@ -151,7 +151,7 @@ for (int i = 0; i < 100; i = i + 1) {
 ```
 Attention! 🚧 the `random` function returns a `float` (decimal number). If you want a `int` you have to round the decimal number like this: `int(random(0, 200));` 
 
-### 10. JPG Export
+### 11. JPG Export
 
 You did some awesome stuff? Then you probably want to export it, right? 
 First add this to the top of your sketch. Through this you can access your computers calendar (time) functions.
