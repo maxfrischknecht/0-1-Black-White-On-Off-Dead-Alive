@@ -103,7 +103,8 @@ When you define a variable you also have to think about it's datatype. It's what
 int a = 0; // A round number 'int'
 float b = 0.0; // A decimal number 'float'
 String words = "Hello World"; // Words 'string'
-boolean c = false; // true or false 'boolean'
+boolean a = false; // true or false 'boolean'
+color c = color(255, 0, 0);
 
 ```
 One of the most important data types is the `array`. An array is a list of data. Each piece of data in an array is identified by an index number representing its position in the array. Arrays are zero based, which means that the first element in the array is [0], the second element is [1], and so on.
