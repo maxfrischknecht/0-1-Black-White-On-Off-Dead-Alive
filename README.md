@@ -197,12 +197,8 @@ String timestamp() {
 ## Resources
 I can encourage you to check out the following resources:
 
-[Hello Processing!](https://hello.processing.org/editor/)
-
-[Daniel Shiffman - creative coding guru](https://shiffman.net/)
-
-[Learn more from the Processing website!](https://processing.org/tutorials/)
-
-[Official Processing Forum](https://discourse.processing.org/)
-
-[Tons of examples by Generative Gestaltung](http://www.generative-gestaltung.de/1/)
+* [Hello Processing!](https://hello.processing.org/editor/)
+* [Daniel Shiffman - creative coding guru](https://shiffman.net/)
+* [Processing tutorials](https://processing.org/tutorials/)
+* [Official Processing Forum](https://discourse.processing.org/)
+* [Tons of examples by Generative Gestaltung](http://www.generative-gestaltung.de/1/)
