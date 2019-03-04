@@ -4,7 +4,7 @@ class CA {
   int[] ruleset = {0, 1, 0, 1, 1, 0, 1, 0}; // rule 90 to start
 
   // here you can define variables for size, color etc.
-  int cellSizeX = 2;
+  int cellSizeX = 8;
   int cellSizeY = 4;
   color colorA = color(255, 0, 0);
   color colorB = color(0, 0, 255);
@@ -24,7 +24,7 @@ class CA {
         fill(0);
       } else {
         // alive cell
-        int a = int(random(5)); // define the probability (how often a color is chosen)
+        int a = int(random(3)); // define the probability (how often a color is chosen)
         if (a == 0) {
           fill(colorB);
         } else {

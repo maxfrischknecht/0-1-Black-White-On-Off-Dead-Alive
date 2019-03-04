@@ -36,7 +36,7 @@ void mousePressed() {
 
 
 void keyReleased() {
-  if (key == 's' || key == 'S') saveFrame("img-export/"+timestamp()+"_##.png");
+  if (key == 's' || key == 'S') saveFrame("export/"+timestamp()+"_##.png");
   println("safed");
 }
 
