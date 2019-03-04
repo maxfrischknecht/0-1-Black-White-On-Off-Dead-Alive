@@ -138,7 +138,23 @@ for (int i = 0; i < 100; i = i + 1) {
 ```
 This code draws 100 rectangles on the same position. Cool but useless, right? Keep reading!
 
-### 10. Random
+### 10. Conditionals: if/else
+Sometimes you only want to execute code if a certain condition is true. That's where you can work with if/else. This is a key concept of programming.
+
+```
+int number = 100;
+
+if(number == 100) {
+  fill(0);
+} else {
+  fill(255);
+}
+
+rect(0, 0, 100, 100);
+``` 
+This result in a black rectangle because `number` is equal to `100`. Have you seen the `==`? That's an important detail! If you would use only one `=` you would assign a new value to `number` instead of comparing it. 
+
+### 11. Random
 
 Usually you need a bit of random to make you code spicy 🔥. This outputs a random number between 0 and 100: `random(0, 100);`. Trough this the code from above makes much more sense:
 
@@ -151,7 +167,7 @@ for (int i = 0; i < 100; i = i + 1) {
 ```
 Attention! 🚧 the `random` function returns a `float` (decimal number). If you want a `int` you have to round the decimal number like this: `int(random(0, 200));` 
 
-### 11. JPG Export
+### 12. JPG Export
 
 You did some awesome stuff? Then you probably want to export it, right? 
 First add this to the top of your sketch. Through this you can access your computers calendar (time) functions.
