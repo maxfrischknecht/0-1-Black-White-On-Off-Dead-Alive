@@ -124,22 +124,7 @@ myArray2[3] // equals 10
 
 Yeah, the array is a weird thing! 🔮 But practically every data out in the web (e.g. your facebook likes) is saved as array data type.
 
-### 8. Console
-
-You can output data in the console to see problems in the code by writting `println(myVariable or value)`. The console is **super helpfull**, never underestimate the power of the console 💪.
-
-### 9. For loop
-
-If you want to handle many similar things at once, the "for loop" is the weapon of choice. `int i` is a counter which usually starts at `0`. As long as `i` is smaller than `100` the code inside the `{}` gets executed. `i = i + 1` indicates how big the counting steps are.
-
-```
-for (int i = 0; i < 100; i = i + 1) {
-  rect(0, 0, 100, 100);
-}
-```
-This code draws 100 rectangles on the same position. Cool but useless, right? Keep reading!
-
-### 10. Conditionals: if/else
+### 8. Conditionals: if/else
 Sometimes you only want to execute code if a certain condition is true. That's where you can work with if/else. This is a key concept of programming.
 
 ```
@@ -155,7 +140,18 @@ rect(0, 0, 100, 100);
 ``` 
 This result in a black rectangle because `number` is equal to `100`. Have you seen the `==`? That's an important detail! If you would use only one `=` you would assign a new value to `number` instead of comparing it. 
 
-### 11. Random
+### 9. For loop
+
+If you want to handle many similar things at once, the "for loop" is the weapon of choice. `int i` is a counter which usually starts at `0`. As long as `i` is smaller than `100` the code inside the `{}` gets executed. `i = i + 1` indicates how big the counting steps are.
+
+```
+for (int i = 0; i < 100; i = i + 1) {
+  rect(0, 0, 100, 100);
+}
+```
+This code draws 100 rectangles on the same position. Cool but useless, right? Keep reading!
+
+### 10. Random
 
 Usually you need a bit of random to make you code spicy 🔥. This outputs a random number between 0 and 100: `random(0, 100);`. Trough this the code from above makes much more sense:
 
@@ -167,6 +163,10 @@ for (int i = 0; i < 100; i = i + 1) {
 }
 ```
 Attention! 🚧 the `random` function returns a `float` (decimal number). If you want a `int` you have to round the decimal number like this: `int(random(0, 200));` 
+
+### 11. Console
+
+You can output data in the console to see problems in the code by writting `println(myVariable or value)`. The console is **super helpfull**, never underestimate the power of the console 💪.
 
 ### 12. JPG Export
 
