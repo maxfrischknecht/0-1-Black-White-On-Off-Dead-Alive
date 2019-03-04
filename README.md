@@ -11,7 +11,7 @@ In order to move ahead quickly during the workshop, it would be great if you cou
 
 ## Course Programme
 
-The course will consist of two parts. First we will go over the basics in order to feel comfortable with the Processing software. In the second part we will use Wolfram's [Cellular Automata](https://en.wikipedia.org/wiki/Elementary_cellular_automaton) to produce complex patterns based on a simple algorithm.
+The course will consist of two parts. First we will go over the basics in order to feel comfortable with the Processing software. In the second part we will use Wolfram's [Cellular Automata](https://en.wikipedia.org/wiki/Elementary_cellular_automaton) to produce complex patterns based on a simple algorithm. Later during the seminar week it will be possible to actually knit the produced images.
 
 ## Part 1: Introduction to scripting
 

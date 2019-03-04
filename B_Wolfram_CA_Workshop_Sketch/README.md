@@ -10,6 +10,8 @@ But we will go a bit further to produce stuff like this
 
 ![](../img/CAextended1.png)
 ![](../img/CAextended2.png)
+![](../img/CAextended3.png)
+![](../img/CAextended4.png)
 
 
 ## Further reading & ressources
