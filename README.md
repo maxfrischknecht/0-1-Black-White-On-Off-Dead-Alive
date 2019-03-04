@@ -7,7 +7,7 @@ We will use the Processing software for our first steps into the world of script
 In order to move ahead quickly during the workshop, it would be great if you could do the following tasks:
 
 * Download / Install Processing and read trough the introduction text [here](https://processing.org/tutorials/gettingstarted/) 
-* Play around with the `processing_start_script.pde` [here](https://github.com/maxfrischknecht/0-1-Black-White-On-Off-Dead-Alive/tree/master/A_Processing_Start_Script)
+* Play around with the `A_Processing_Start_Script` [here](https://github.com/maxfrischknecht/0-1-Black-White-On-Off-Dead-Alive/tree/master/A_Processing_Start_Script)
 
 ## Course Programme
 
