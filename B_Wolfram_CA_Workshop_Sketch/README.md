@@ -6,14 +6,6 @@ We will use Wolfram's Cellular Automata to produce complex patterns based on a s
 
 This script produces 256 possible patterns. A complete overview can be found [here](http://mathworld.wolfram.com/ElementaryCellularAutomaton.html).
 
-But we will go a bit further to produce stuff like this
-
-![](../img/CAextended1.png)
-![](../img/CAextended2.png)
-![](../img/CAextended3.png)
-![](../img/CAextended4.png)
-
-
 ## Further reading & ressources
 We don't have the time to cover the full code in the workshop. But if someone is interested in learning how to write such a code I can recommend you the following resources: 
 
