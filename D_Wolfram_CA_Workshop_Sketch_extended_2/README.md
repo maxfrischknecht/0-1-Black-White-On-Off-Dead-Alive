@@ -4,6 +4,6 @@ This sketch has a dimension of 200 x 600 px and safes .TIF files. A width of 200
 The sketch also has a added possibility of changing the CA rule over time.
 
 ![](../img/knit1.png) 
-![](../img/knit2.tif) 
-![](../img/knit3.tif) 
-![](../img/knit4.tif) 
+![](../img/knit2.png) 
+![](../img/knit3.png) 
+![](../img/knit4.png) 
