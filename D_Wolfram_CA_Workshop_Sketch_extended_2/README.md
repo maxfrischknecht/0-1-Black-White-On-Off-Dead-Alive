@@ -5,5 +5,5 @@ The sketch also has a added possibility of changing the CA rule over time.
 
 ![](../img/knit1.png) 
 ![](../img/knit2.png) 
+![](../img/knit4.png)
 ![](../img/knit3.png) 
-![](../img/knit4.png) 
