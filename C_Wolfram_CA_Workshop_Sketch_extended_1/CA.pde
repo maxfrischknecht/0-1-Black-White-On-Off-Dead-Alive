@@ -8,7 +8,7 @@ class CA {
   int cellSizeY = 4;
   color colorA = color(255, 0, 0);
   color colorB = color(0, 0, 255);
-  
+
 
   CA() {
     cells = new int[width/cellSizeX]; // calculate how many cells based on sketch width/cellSize
@@ -39,6 +39,8 @@ class CA {
     for (int i = 0; i < ruleset.length; i++) {
       ruleset[i] = int(random(2));
     }
+    // print which rule was generated
+    println("random rule: ", ruleset[0], ruleset[1], ruleset[2], ruleset[3], ruleset[4], ruleset[5], ruleset[6], ruleset[7]);
   }
 
   void restartCenter() { // all cells start with 0, exept center cell with 1
