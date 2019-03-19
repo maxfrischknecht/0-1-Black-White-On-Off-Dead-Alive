@@ -34,6 +34,8 @@ class CA {
     for (int i = 0; i < ruleset.length; i++) {
       ruleset[i] = int(random(2));
     }
+    // print which rule was generated
+    println("random rule: ", ruleset[0], ruleset[1], ruleset[2], ruleset[3], ruleset[4], ruleset[5], ruleset[6], ruleset[7]);
   }
 
   void restartCenter() { // all cells start with 0, exept center cell with 1
@@ -64,7 +66,7 @@ class CA {
     }
     cells = nextGen; // The current generation becomes the new generation
     generation++; // new gen = one more row (y of rect is incremented)
-    
+
     // change the rule at certain points
     //if (generation == height/3) randomRule();
     //if (generation == height/2) randomRule();
