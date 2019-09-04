@@ -2,8 +2,9 @@ class CA {
   int[] cells; // array for cells
   int generation; // track generations
   //int[] ruleset = {0, 1, 0, 1, 1, 0, 1, 0}; // rule 90 to start
-  //int[] ruleset = {0, 0, 1, 1, 1, 1, 1, 0}; // rule 62 to start
-  int[] ruleset = {0, 0, 0, 0, 1, 1, 1, 1};
+  int[] ruleset = {0, 0, 1, 1, 1, 1, 1, 0}; // rule 62 to start
+  //int[] ruleset = {0, 0, 0, 0, 1, 1, 1, 1};
+  //int[] ruleset = {0, 1, 0, 0, 1, 1, 1, 1};
 
   // here you can define variables for size, color etc.
   int cellSizeX = 10;

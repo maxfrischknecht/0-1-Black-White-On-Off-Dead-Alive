@@ -6,6 +6,7 @@
 // When the system reaches bottom of the window it stops
 // Mouse click produces a random new rule & drawing
 // CMD + S = save jpg
+// q = quit & save pdf
 
 import java.util.Calendar;
 import processing.pdf.*;
@@ -14,9 +15,10 @@ CA ca;   // An instance object to describe the Wolfram basic Cellular Automata
 
 void setup() {
   size(800, 800);
-  //beginRecord(PDF, "everything.pdf");
+  beginRecord(PDF, "everything.pdf");
 
   ca = new CA(); // Initialize CA
+
 
   noStroke();
   background(0);
@@ -31,10 +33,11 @@ void draw() {
 }
 
 void mousePressed() {
+  //beginRecord(PDF, "frame-####.pdf"); 
   background(0);
-  ca.randomRule();
-  //ca.restartCenter(); // draws from the middle
-  ca.restartRandom(); // draws randomly
+  //ca.randomRule();
+  ca.restartCenter(); // draws from the middle
+  //ca.restartRandom(); // draws randomly
 }
 
 
