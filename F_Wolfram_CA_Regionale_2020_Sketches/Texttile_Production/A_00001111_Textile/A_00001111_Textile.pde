@@ -14,7 +14,9 @@ CA ca;   // An instance object to describe the Wolfram basic Cellular Automata
 
 
 void setup() {
-  size(800, 800);
+  size(860, 950); 
+  // 560 x 720 (140 x 180)
+  // 560 x 840 (140 x 210)
   beginRecord(PDF, "everything.pdf");
 
   ca = new CA(); // Initialize CA
@@ -36,8 +38,8 @@ void mousePressed() {
   //beginRecord(PDF, "frame-####.pdf"); 
   background(0);
   //ca.randomRule();
-  ca.restartCenter(); // draws from the middle
-  //ca.restartRandom(); // draws randomly
+  //ca.restartCenter(); // draws from the middle
+  ca.restartRandom(); // draws randomly
 }
 
 

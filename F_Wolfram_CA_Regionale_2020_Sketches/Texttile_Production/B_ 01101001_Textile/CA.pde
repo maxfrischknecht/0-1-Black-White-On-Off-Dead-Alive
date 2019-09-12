@@ -1,16 +1,15 @@
 class CA {
   int[] cells; // array for cells
   int generation; // track generations
-  //int[] ruleset = {0, 1, 0, 1, 1, 0, 1, 0}; // rule 90 to start
-  int[] ruleset = {0, 0, 1, 1, 1, 1, 1, 0}; // rule 62 to start
-  //int[] ruleset = {0, 0, 0, 0, 1, 1, 1, 1};
-  //int[] ruleset = {0, 1, 0, 0, 1, 1, 1, 1};
+  //int[] ruleset = {0, 1, 1, 1, 1, 0, 0, 1};
+  int[] ruleset = {0, 1, 1, 0, 1, 0, 0, 1};
+
 
   // here you can define variables for size, color etc.
-  int cellSizeX = 10;
-  int cellSizeY = 10;
-  color colorA = color(255, 255, 0);
-  color colorB = color(255, 0, 255);
+  int cellSizeX = 16;
+  int cellSizeY = 6;
+  color colorA = color(232, 230, 55);
+  color colorB = color(27, 27, 155);
 
 
   CA() {
@@ -25,7 +24,7 @@ class CA {
       if (cells[i] == 0) {
         // dead cell
         fill(0);
-        arc(i*cellSizeX, generation*cellSizeY, cellSizeX, cellSizeY, PI, TWO_PI);
+        ellipse(i*cellSizeX, generation*cellSizeY, cellSizeX, cellSizeY);
       } else {
         // alive cell
         int a = int(random(2)); // define the probability (how often a color is chosen)
