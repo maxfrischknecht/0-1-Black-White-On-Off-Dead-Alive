@@ -35,7 +35,7 @@ void draw() {
 void mousePressed() {
   //beginRecord(PDF, "frame-####.pdf"); 
   background(0);
-  //ca.randomRule();
+  ca.randomRule();
   //ca.restartCenter(); // draws from the middle
   ca.restartRandom(); // draws randomly
 }
