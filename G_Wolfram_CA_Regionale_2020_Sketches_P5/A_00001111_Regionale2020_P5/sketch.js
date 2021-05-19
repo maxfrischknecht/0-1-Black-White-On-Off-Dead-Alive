@@ -11,8 +11,8 @@ let cellSizeX = 10;
 let cellSizeY = 10;
 
 function setup() {
-	createCanvas(800, 800);
-
+	let cnv = createCanvas(windowWidth, windowHeight);
+	cnv.parent('sketch-holder');
 	noStroke();
 	background(0);
 

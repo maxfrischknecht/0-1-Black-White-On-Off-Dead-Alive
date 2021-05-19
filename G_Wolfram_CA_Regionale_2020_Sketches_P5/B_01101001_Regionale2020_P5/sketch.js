@@ -11,7 +11,7 @@ let cellSizeX = 20;
 let cellSizeY = 10;
 
 function setup() {
-	createCanvas(800, 800);
+	createCanvas(windowWidth, windowHeight);
 
 	noStroke();
 	background(0);
