@@ -22,7 +22,7 @@ void setup() {
 
   noStroke();
   background(0);
-  frameRate(120); // how fast it draws
+  frameRate(60); // how fast it draws
 }
 
 void draw() {
