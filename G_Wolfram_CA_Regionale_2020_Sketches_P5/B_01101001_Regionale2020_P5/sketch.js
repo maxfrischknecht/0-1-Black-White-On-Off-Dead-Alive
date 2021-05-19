@@ -5,9 +5,9 @@ let cells;
 let generation = 0;
 
 // An array to store the ruleset, for example {0,1,1,0,1,1,0,1}
-let ruleset = [0, 0, 0, 0, 1, 1, 1, 1];
+let ruleset = [0, 1, 1, 0, 1, 0, 0, 1];
 
-let cellSizeX = 10;
+let cellSizeX = 20;
 let cellSizeY = 10;
 
 function setup() {
@@ -39,14 +39,14 @@ function display() {
 		if (cells[i] === 0) {
 			// dead cell
 			fill(0);
-			arc(i * cellSizeX, generation * cellSizeY, cellSizeX, cellSizeY, PI, TWO_PI);
+			ellipse(i*cellSizeX, generation*cellSizeY, cellSizeX, cellSizeY);
 		} else {
 			// alive cell
 			let a = int(random(2)); // define the probability (how often a color is chosen)
 			if (a == 0) {
 				fill(255, 255, 0);
 			} else {
-				fill(255, 0, 255);
+				fill(0, 0, 255);
 			}
 		}
 		rect(i * cellSizeX, generation * cellSizeY, cellSizeX, cellSizeY);
